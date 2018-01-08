@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PolyDoc
 {
-    public class Class1
+    public enum DocumentType
     {
+        Pdf,
+        Word
     }
 }
